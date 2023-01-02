@@ -1,0 +1,62 @@
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:769px) {
+
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .menus {
+        position: absolute;
+        top: 120px;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0px 10px;
+    }
+
+    /* .menu-items {
+        font-weight: 600;
+    } */
+
+    /* .menu-items a {
+        font-weight: 600;
+    } */
+
+    .nav-area {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menus__full {
+        display: none;
+    }
+
+    .dropdown {
+        min-width: 14rem;
+        right: 0;
+    }
+
+    .herosection {
+        grid:
+            'myArea'
+            'bb'
+            'cc'
+            'dd'
+        ;
+    }
+
+    .mobile,
+    .mobile img {
+        height: 41vh;
+        z-index: -1;
+    }
+}
+
+@media (max-width:576px) {}
